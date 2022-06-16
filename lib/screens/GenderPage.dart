@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../widgets/genderCard.dart';
 
-class GenderPage extends StatelessWidget{
+class GenderPage extends StatelessWidget {
   const GenderPage({Key? key}) : super(key: key);
 
   @override
@@ -12,10 +12,27 @@ class GenderPage extends StatelessWidget{
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        PageTitle(title: 'GENDER',),
-        GenderCard(imageURL: AppConstants.maleLogo, genderText: 'Male', widthX: MediaQuery.of(context).size.width/2, heightY: MediaQuery.of(context).size.height/2,),
-        GenderCard(imageURL: AppConstants.femaleLogo2, genderText: 'Female', widthX: MediaQuery.of(context).size.width/2, heightY: MediaQuery.of(context).size.height/2,),
-        GenderCard(imageURL: AppConstants.transLogo, genderText: 'Others', widthX: MediaQuery.of(context).size.width/2, heightY: MediaQuery.of(context).size.height/2,),
+        PageTitle(
+          title: 'GENDER',
+        ),
+        GenderCard(
+          imageURL: AppConstants.maleLogo,
+          genderText: 'Male',
+          widthX: MediaQuery.of(context).size.width / 2,
+          heightY: MediaQuery.of(context).size.height / 2,
+        ),
+        GenderCard(
+          imageURL: AppConstants.femaleLogo2,
+          genderText: 'Female',
+          widthX: MediaQuery.of(context).size.width / 2,
+          heightY: MediaQuery.of(context).size.height / 2,
+        ),
+        GenderCard(
+          imageURL: AppConstants.transLogo,
+          genderText: 'Others',
+          widthX: MediaQuery.of(context).size.width / 2,
+          heightY: MediaQuery.of(context).size.height / 2,
+        ),
       ],
     );
   }

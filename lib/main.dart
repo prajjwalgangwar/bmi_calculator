@@ -22,11 +22,11 @@ class MyApp extends StatelessWidget {
       create: (context) => BmiBloc(),
       child: GetMaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
+        title: 'BMI Calculator',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: Home(),
+        home: const Home(),
       ),
     );
   }

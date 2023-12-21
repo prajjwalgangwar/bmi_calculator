@@ -24,8 +24,8 @@ class SliderState extends BmiState {
 
 class CalculateState extends BmiState {
   final Color color;
-  final String bmi_value;
-  final String bmi_text;
+  final String bmiValue;
+  final String bmiText;
 
-  CalculateState(this.color, this.bmi_value, this.bmi_text);
+  CalculateState(this.color, this.bmiValue, this.bmiText);
 }

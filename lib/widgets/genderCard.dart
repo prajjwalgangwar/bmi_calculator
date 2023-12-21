@@ -62,7 +62,10 @@ class GenderCard extends StatelessWidget {
                       border: Border.all(color: Colors.black26),
                       borderRadius: BorderRadius.circular(50),
                       image: DecorationImage(
-                          fit: BoxFit.cover, image: NetworkImage(imageURL))),
+                          fit: BoxFit.cover,
+                          image: NetworkImage(
+                            imageURL,
+                          ))),
                 ),
               ),
               Positioned(

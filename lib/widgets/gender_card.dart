@@ -1,5 +1,5 @@
 import 'package:bmi_calculator/bmi/bmi_bloc.dart';
-import 'package:bmi_calculator/screens/CalculatePage.dart';
+import 'package:bmi_calculator/screens/calculation_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
@@ -62,10 +62,10 @@ class GenderCard extends StatelessWidget {
                       border: Border.all(color: Colors.black26),
                       borderRadius: BorderRadius.circular(50),
                       image: DecorationImage(
-                          fit: BoxFit.cover,
-                          image: NetworkImage(
+                          image: AssetImage(
                             imageURL,
-                          ))),
+                          ),
+                          fit: BoxFit.cover)),
                 ),
               ),
               Positioned(

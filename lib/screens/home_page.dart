@@ -1,4 +1,4 @@
-import 'package:bmi_calculator/screens/GenderPage.dart';
+import 'package:bmi_calculator/screens/selection_page.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {

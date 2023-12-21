@@ -1,9 +1,9 @@
-import 'package:bmi_calculator/AppConstants.dart';
+import 'package:bmi_calculator/app_constants.dart';
 import 'package:bmi_calculator/bmi/bmi_bloc.dart';
 import 'package:bmi_calculator/bmi/bmi_event.dart';
 import 'package:bmi_calculator/bmi/bmi_state.dart';
 import 'package:bmi_calculator/widgets/counter_card.dart';
-import 'package:bmi_calculator/widgets/genderCard.dart';
+import 'package:bmi_calculator/widgets/gender_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
